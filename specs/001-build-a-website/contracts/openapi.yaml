@@ -1,0 +1,9 @@
+openapi: 3.0.3
+info:
+  title: Useless Infinite Scroll — No Network API
+  version: 1.0.0
+  description: >
+    This feature is implemented entirely client-side. There are no server endpoints.
+servers: []
+paths: {}
+components: {}

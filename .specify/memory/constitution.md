@@ -1,50 +1,46 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!--
+Sync Impact Report:
+- Version change: 0.0.0 → 0.1.0
+- Modified principles: Template placeholders replaced with concrete principles
+- Added sections: Performance, Code Quality, User Experience Consistency
+- Removed sections: None
+- Templates requiring updates:
+  - .specify/templates/plan-template.md ⚠ pending
+  - .specify/templates/spec-template.md ⚠ pending
+  - .specify/templates/tasks-template.md ⚠ pending
+  - .specify/templates/commands/*.md ⚠ pending
+-->
+
+# Satono Static Website Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### I. Performance Optimization
+All static website assets MUST be optimized for fast load times. Use efficient image formats, minify CSS/JS, and leverage caching. No page should exceed 1 second load time on a standard broadband connection. Rationale: Fast sites improve user retention and SEO.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### II. Code Quality Assurance
+All code MUST pass linting, formatting, and automated tests before merging. Code reviews are mandatory for every change. No unused code or dependencies allowed. Rationale: High code quality reduces bugs and eases future maintenance.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### III. User Experience Consistency
+All pages MUST follow a unified design system. Navigation, typography, and color schemes must remain consistent across the site. Accessibility standards (WCAG 2.1 AA) are required. Rationale: Consistency builds trust and improves usability for all users.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+## Additional Constraints
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+- Technology stack: Only static site generators (e.g., Next.js, Hugo, Jekyll) permitted.
+- Security: All third-party scripts must be reviewed for privacy and security risks.
+- Deployment: Only automated CI/CD pipelines allowed for production releases.
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
+## Development Workflow
 
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
-
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
-
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+- All changes require code review and passing tests.
+- Performance and accessibility checks are part of the CI pipeline.
+- Major design changes require approval from the project lead.
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+- This constitution supersedes all other practices.
+- Amendments require documentation, team approval, and a migration plan.
+- All PRs/reviews must verify compliance with these principles.
+- Versioning follows semantic rules: MAJOR for breaking changes, MINOR for new principles/sections, PATCH for clarifications.
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 0.1.0 | **Ratified**: 2025-10-15: Original ratification date required | **Last Amended**: 2025-10-15

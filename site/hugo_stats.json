@@ -1,0 +1,54 @@
+{
+  "htmlElements": {
+    "tags": [
+      "body",
+      "div",
+      "h2",
+      "head",
+      "html",
+      "img",
+      "input",
+      "label",
+      "link",
+      "main",
+      "meta",
+      "p",
+      "script",
+      "span",
+      "strong",
+      "title"
+    ],
+    "classes": [
+      "counter-epic",
+      "counter-grid",
+      "counter-item",
+      "counter-label",
+      "counter-rare",
+      "counter-value",
+      "counter-wow",
+      "counters",
+      "infinite-container",
+      "notice",
+      "top-pinned",
+      "top-segment",
+      "upload-area",
+      "upload-error",
+      "visually-hidden"
+    ],
+    "ids": [
+      "aria-live-wow",
+      "common-counter",
+      "epic-counter",
+      "infinite-container",
+      "infinite-error",
+      "infinite-upload",
+      "main-content",
+      "rare-counter",
+      "top-error",
+      "top-image",
+      "top-region",
+      "top-upload",
+      "wow-counter"
+    ]
+  }
+}

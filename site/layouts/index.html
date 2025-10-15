@@ -1,0 +1,13 @@
+{{ define "title" }}Satono Long Tongue — Infinite Scroll{{ end }}
+
+
+{{ define "top" }}
+  {{ partial "notice.html" . }}
+  {{ partial "upload.html" . }}
+  {{ partial "counters.html" . }}
+{{ end }}
+
+{{ define "main" }}
+  {{ partial "top.html" . }}
+  {{ partial "infinite.html" . }}
+{{ end }}

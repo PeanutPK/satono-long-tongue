@@ -1,0 +1,7 @@
+node_modules/
+dist/
+build/
+site/public/
+site/resources/
+coverage/
+*.min.js

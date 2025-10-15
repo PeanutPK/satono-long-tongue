@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
+  {{ $css := resources.Get "css/main.css" | resources.Minify }}
+  <link rel="stylesheet" href="{{ $css.RelPermalink }}">
+  {{ $a11yCss := resources.Get "css/a11y.css" | resources.Minify }}
+  <link rel="stylesheet" href="{{ $a11yCss.RelPermalink }}">
+</head>
+<body>
+  <div id="top-region" class="top-pinned" role="banner" aria-label="Top image area">
+    {{ block "top" . }}{{ end }}
+  </div>
+  <main id="main-content" role="main">
+    {{ block "main" . }}{{ end }}
+  </main>
+  {{ $ts := resources.Get "js/main.ts" | js.Build | resources.Minify }}
+  <script src="{{ $ts.RelPermalink }}" defer></script>
+</body>
+</html>
