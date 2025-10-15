@@ -29,8 +29,9 @@
       "counters",
       "infinite-container",
       "notice",
+      "top",
+      "top-image-wrapper",
       "top-pinned",
-      "top-segment",
       "upload-area",
       "upload-error",
       "visually-hidden"

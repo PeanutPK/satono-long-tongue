@@ -1,11 +1,14 @@
 {{ define "title" }}Satono Long Tongue — Infinite Scroll{{ end }}
 
+{{ define "top-pin" }}
+  {{ partial "counters.html" .}}
+{{ end }}
 
 {{ define "top" }}
   {{ partial "notice.html" . }}
   {{ partial "upload.html" . }}
-  {{ partial "counters.html" . }}
 {{ end }}
+
 
 {{ define "main" }}
   {{ partial "top.html" . }}

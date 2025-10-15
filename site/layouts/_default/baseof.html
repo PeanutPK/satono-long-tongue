@@ -10,7 +10,10 @@
   <link rel="stylesheet" href="{{ $a11yCss.RelPermalink }}">
 </head>
 <body>
-  <div id="top-region" class="top-pinned" role="banner" aria-label="Top image area">
+  <div id="top-region" class="top-pinned" role="banner" aria-label="Top area">
+    {{ block "top-pin" . }}{{ end }}
+  </div>
+  <div class="top" role="region" aria-label="Top upload area">
     {{ block "top" . }}{{ end }}
   </div>
   <main id="main-content" role="main">
