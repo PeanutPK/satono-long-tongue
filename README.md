@@ -278,3 +278,5 @@ For detailed specifications and implementation plans, see:
 ---
 
 **Have fun scrolling! 🎉**
+
+This project is powered by speckit for CSP class
