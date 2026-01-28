@@ -280,8 +280,3 @@ For detailed specifications and implementation plans, see:
 **Have fun scrolling! 🎉**
 
 This project is powered by speckit for CSP class
-
-Code Charta Command
-```shell
-ccsh unifiedparser -e=.cjs -o=stn-long satono-long-tongue
-```
